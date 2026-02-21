@@ -61,7 +61,7 @@ export default function App() {
           generateData();
           return 0;
         });
-      }, 5000);
+      }, 2500);
     }
     return () => clearInterval(interval);
   }, [isAnimating, generateData]);
