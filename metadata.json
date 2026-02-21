@@ -1,0 +1,5 @@
+{
+  "name": "Neural Dynamics: Backprop vs Predictive Coding",
+  "description": "An interactive visualization comparing classical backpropagation with predictive coding architectures in neural networks.",
+  "requestFramePermissions": []
+}
