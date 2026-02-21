@@ -261,7 +261,7 @@ export const NetworkVisualizer: React.FC<NetworkVisualizerProps> = ({
 
   return (
     <div ref={wrapRef} className="w-full relative bg-slate-900/50 rounded-xl border border-slate-800 overflow-hidden" style={{ height: 'clamp(280px, 40vh, 480px)' }}>
-      <div className="absolute top-3 left-3 z-10">
+      <div className="absolute top-5 left-3 z-10">
         <span className="text-[9px] md:text-[10px] font-mono uppercase tracking-widest text-slate-500">
           {type === 'backprop'
             ? 'Sequential Forward + Backward Gradient Flow'

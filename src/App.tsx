@@ -212,7 +212,7 @@ export default function App() {
 
               {/* Visualization Section - Full Width */}
               <section className="space-y-8">
-                <div className="bg-slate-900/50 border border-slate-800 rounded-3xl p-4 md:p-8 flex flex-col shadow-2xl h-[600px] md:h-[600px]">
+                <div className="bg-slate-900/50 border border-slate-800 rounded-3xl p-4 md:p-8 flex flex-col shadow-2xl h-[500px] md:h-[600px]">
                   <div className="flex flex-col md:flex-row md:items-center justify-between mb-8 gap-4 shrink-0">
                     <div className="flex flex-wrap items-center gap-4 md:gap-6">
                       <div className="flex items-center gap-2">
