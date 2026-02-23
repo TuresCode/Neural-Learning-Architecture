@@ -96,8 +96,11 @@ export const BlogPost: React.FC = () => {
         </section>
 
         <div className="pt-12 flex justify-center">
-          <button 
-            onClick={() => window.dispatchEvent(new CustomEvent('switch-tab', { detail: 'backprop' }))}
+          <button
+            onClick={() => {
+            window.dispatchEvent(new CustomEvent('switch-tab', { detail: 'backprop' }));
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
             className="flex items-center gap-2 px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white rounded-2xl font-bold shadow-lg shadow-emerald-900/20 transition-all active:scale-95 group"
           >
             Explore the Models
